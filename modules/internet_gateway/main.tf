@@ -6,3 +6,4 @@ resource "aws_internet_gateway" "iob_internet_gateway" {
     Name = var.internet_gateway_tag
   }
 }
+

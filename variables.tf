@@ -28,3 +28,14 @@ variable "iob_public_rt_tag" {}
 # security group
 variable "security_group_tag" {}
 
+# ami
+variable "ami" {}
+variable "instance_type" {}
+variable "key_name" {}
+variable "instance_tag" {}
+
+# dynamodb
+variable "dynamodb_table_name" {}
+variable "billing_mode" {}
+variable "hash_key" {}
+

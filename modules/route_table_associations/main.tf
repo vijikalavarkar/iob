@@ -1,0 +1,16 @@
+resource "aws_route_table_association" "iob_public_route_table_association_1" {
+  subnet_id      = var.subnet1_id
+  route_table_id = var.iob_public_rt_id
+}
+
+resource "aws_route_table_association" "iob_public_route_table_association_2" {
+  subnet_id      = var.subnet2_id
+  route_table_id = var.iob_public_rt_id
+}
+
+resource "aws_route_table_association" "iob_public_route_table_association_3" {
+  subnet_id      = var.subnet3_id
+  route_table_id = var.iob_public_rt_id
+}
+
+
